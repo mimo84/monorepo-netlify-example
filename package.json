@@ -1,9 +1,11 @@
 {
   "private": true,
   "workspaces": [
-    "website"
+    "website",
+    "packages/*"
   ],
   "scripts": {
-    "build:website": "yarn workspace website build"
+    "build:website": "yarn workspace website build",
+    "build:my-library": "yarn workspace my-library build"
   }
 }
